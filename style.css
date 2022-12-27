@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(244, 243, 243);
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    margin-top: 5rem;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-weight: 500;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    min-width: 960px;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav_right {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin-right: 50px;
+}
+
+.nav_left {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+
+}
+
+.nav_left a {
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 161, 255);
+    transition: 0.3s ease-in-out 0.3s;
+}
+
+.nav_left a:hover {
+    color: rgb(8, 0, 255);
+    transition: all 0.3s ease-in 0.3s;
+}
+
+.nav_left a span {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: rgb(0, 161, 255);
+    margin: 0 10px 0px 50px;
+    transition: 0.3s ease-in-out 0.3s;
+}
+
+.nav_left a span:hover {
+    color: rgb(8, 0, 255);
+    transition: all 0.3s ease-in 0.3s;
+}
+
+span {
+    color: rgb(0, 161, 255);
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.right img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: rgb(0, 161, 255) 40px 40px 1px;
+}
+
+img.git {
+    float: right;
+    width: 25px;
+    height: 25px;
+    transition: 0.2s ease-in-out 0.2s;
+}
+
+img.git:hover {
+    border-radius: 50%;
+    box-shadow: rgb(205, 204, 204) 2px 8px 12px;
+    transition: all 0.2s ease-in 0.2s;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    min-height: 600px;
+    box-shadow: rgb(74, 74, 74) 1px 5px 20px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    padding-right: 40px;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.mid_container {
+    max-width: 250px;
+    margin-left: 50px;
+    flex-direction: column;
+    display: flex;
+}
+
+.mid_container a {
+    text-decoration: none;
+    transition: 0.3s ease-in-out 0.3s;
+}
+
+.mid_container a:hover,
+.mid_container:focus,
+.mid_container:active {
+    color: rgb(1, 151, 238);
+    transition: all 0.2s ease-in 0.2s;
+}
+
+a:visited {
+    color: black;
+}
+
+h2 {
+    color: rgb(0, 161, 255);
+}
