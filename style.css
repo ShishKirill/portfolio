@@ -78,7 +78,7 @@ ul {
     height: 170px;
     border-radius: 50%;
     border: 2px solid white;
-    box-shadow: rgb(0, 161, 255) 40px 40px 1px;
+    box-shadow: none;
 }
 
 img.git {
@@ -149,4 +149,20 @@ h2 {
 
 footer {
     margin: 0 auto;
+}
+
+@media (min-width:730px) {
+    .top {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mid_container {
+        display: flex;
+
+    }
+
+    .right img {
+        box-shadow: rgb(0, 161, 255) 40px 40px 1px;
+    }
 }
