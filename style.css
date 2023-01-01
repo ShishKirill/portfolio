@@ -17,7 +17,6 @@ body {
 header {
     background-color: rgb(255, 255, 255);
     height: 100px;
-    min-width: 960px;
     display: inline-flex;
     align-items: center;
     font-family: 'Poppins', sans-serif;
@@ -32,7 +31,6 @@ header {
 .nav_left {
     background-color: rgb(255, 255, 255);
     width: 50%;
-
 }
 
 .nav_left a {
