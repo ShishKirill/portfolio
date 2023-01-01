@@ -105,7 +105,7 @@ img.git:hover {
 
 .top {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
 }
 
 .left {
@@ -159,7 +159,6 @@ footer {
 
     .mid_container {
         display: flex;
-
     }
 
     .right img {
