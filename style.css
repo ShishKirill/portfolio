@@ -154,7 +154,7 @@ ul {
     transform-origin: 0% 50%;
 }
 
-.link:visited {
+.link:focus {
     color: rgb(155, 155, 155);
 }
 
