@@ -93,7 +93,7 @@ p {
     font-weight: 300;
     margin-top: 2rem;
     text-align: justify;
-    padding: 0 10em;
+    padding: 0 8em;
     line-height: 1.25;
 }
 
@@ -184,4 +184,7 @@ footer {
         margin: 1rem 0 0;
     }
 
+    p{
+        padding: 0 8em;
+     }
 }
