@@ -61,7 +61,7 @@ section {
 figure {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 100%;
 }
 
 span.logo_name{
@@ -94,7 +94,7 @@ p {
     margin-top: 2rem;
     text-align: justify;
     padding: 0 8em;
-    line-height: 1.25;
+    line-height: 1.5;
 }
 
 span {
@@ -177,7 +177,7 @@ footer {
     }
 
     h1{
-        margin: 1.5rem 0 0;
+        margin: 2.5rem 0;
     }
 
     h2{
