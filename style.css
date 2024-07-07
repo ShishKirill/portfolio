@@ -62,7 +62,6 @@ section {
 figure {
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 span.logo_name{
